@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 export default function Home() {
-  const Button = function(props) {
+  const Button = function(props: any) {
     return (
       <button className='bg-[#152D81] text-lg transition hover:bg-blue-700 text-white font-bold py-4 px-4 rounded'>
           <a href={props.href}>{props.label}</a>
