@@ -17,7 +17,7 @@ export default function Home() {
         <h1 className='text-2xl md:text-3xl lg:text-4xl'>Frederick & <br/>Sandulache Lab</h1>
       </div>
       <div className='flex flex-col gap-2 w-full md:mt-4'>
-         <Button href='https://gp.bcmhnc.com' label='GenePattern Server' />
+            <Button href='https://gp.bcmhnc.com/gp/pages/login.jsf' label='GenePattern Server' />
       </div>
     </div>
     </div>
