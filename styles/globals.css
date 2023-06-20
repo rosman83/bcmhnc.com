@@ -5,7 +5,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300;400;500;600;700&display=swap');
 
 
-:root {
+.blog {
+  max-width: 70ch;
+  padding: 3em 1em;
+  margin: auto;
+  line-height: 1.75;
+  font-size: 1.25em;
+}
+
+.blog h1,h2,h3,h4,h5,h6 {
+  margin: 3em 0 1em;
+}
+
+.blog p,ul,ol {
+  margin-bottom: 2em;
+  color: #1d1d1d;
+  font-family: sans-serif;
+}
+
+
+.core {
   font-family: 'Noto Sans', sans-serif;
   background: url('/wallpaper.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;

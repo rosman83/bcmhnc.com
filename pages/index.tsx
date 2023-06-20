@@ -9,7 +9,7 @@ export default function Home() {
     )
   }
   return (
-    <main className='min-w-screen min-h-screen w-full h-full flex items-center justify-center'>
+    <main className='core min-w-screen min-h-screen w-full h-full flex items-center justify-center'>
       <div className='absolute top-0 left-0 w-full h-full backdrop-blur-sm flex items-center justify-center'>
     <div className='py-10 px-6  backdrop-blur-md bg-white/80 rounded-lg flex flex-col items-center justify-center w-fit gap-6'>
       <div className='flex flex-row gap-4 items-center px-3'>
@@ -17,7 +17,8 @@ export default function Home() {
         <h1 className='text-2xl md:text-3xl lg:text-4xl'>Frederick & <br/>Sandulache Lab</h1>
       </div>
       <div className='flex flex-col gap-2 w-full md:mt-4'>
-            <Button href='https://gp.bcmhnc.com/gp/pages/login.jsf' label='GenePattern Server' />
+        <Button href='https://gp.bcmhnc.com/gp/pages/login.jsf' label='GenePattern Server' />
+        <Button href='/toolkit' label='Data Analysis Toolkit' />
       </div>
     </div>
     </div>
