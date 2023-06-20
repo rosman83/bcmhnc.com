@@ -5,14 +5,15 @@ import rehypeRaw from 'rehype-raw'
 
 const markdown_init = `
 # Data Analysis Toolkit
+Tools used for Head and Neck Cancer research at Baylor College of Medicine, with a goal of condensing time-consuming manual pipelines of data analysis methods into one click scanning processes.
 
-This is a simple to use application that scans gene data files from a folder, and runs a data analysis pipeline to output test results.
+[Download Latest Release](https://github.com/rosman83/bcmhnc-toolkit/releases "download")
 
 ![image](https://bcmhnc.com/preview.png)
 
 ## How to Use
 
-Download the latest open source release for your platform here, and run the program installer, application will automatically alert you to updates in the future.
+Download the latest open source release for your platform [here](https://github.com/rosman83/bcmhnc-toolkit/releases "download"), and run the program installer, application will automatically alert you to updates in the future.
 
 ## Brief Pipeline Summary
 
